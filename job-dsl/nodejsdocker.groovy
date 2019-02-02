@@ -14,7 +14,7 @@ job('NodeJS Docker example') {
     }
     steps {
         dockerBuildAndPublish {
-            repositoryName('hgmin777/docker-nodejs-demo')
+            repositoryName('hgmin777/docker-nodejs-demo1111')
             tag('latest')    //tag('${GIT_REVISION,length=9}')
             println('*************************************')
             println(GIT_REVISION)
